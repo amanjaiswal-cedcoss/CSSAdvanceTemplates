@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS AdvanceTemplate1</title>
+    <style>
+      body {
+        margin: 0px;
+        font-size: 0.73rem;
+        
+      }
+      #header {
+        background-color: gray;
+        display: flex;
+        height: 54px;
+        align-items: center;
+      }
+      #welcome {
+        margin: 0px;
+      }
+      #navbar,
+      #middle {
+        display: flex;
+      }
+      #navbar {
+        background-color: black;
+        height: 2%;
+      }
+      .navitems {
+        list-style: none;
+        display: inline;
+        color: white;
+        border: 1px solid gray;
+        margin: 0px;
+        padding: 2px;
+        text-decoration: none;
+      }
+      #Contactus{
+        background-color: green;
+      }
+      #middle{
+        height: 60%;
+      }
+      #mid-left{
+        padding: 2%;
+        justify-content: center;
+        justify-items: center;
+        overflow: hidden;
+      }
+      #mid-right{
+        padding: 1%;
+        background-color: #999393;
+      }
+      #footnote{
+        margin: 0px;
+        display: inline;
+      }
+      #footer{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 54px;
+        align-items: center;
+        padding-right: 2%;
+        background-color: #b3a8a8;
+      }
+      .middle-head{
+        color: rgb(14, 14, 117);
+        margin-bottom: 0px;
+      }
+      #mid-left > p{
+        margin-top: 0px;
+      }
+      #mid-right > p{
+        margin-top: 0px;
+      }
+      @media (max-width: 1200px) 
+      {
+        body{
+          font: size 0.9em;
+        }
+      }
+      @media (max-width: 800px) 
+      {
+        body{
+          font: size 0.6em;
+        }
+      }
+      @media (max-width: 450px) 
+      {
+        body{
+          font: size 0.6em;
+        }
+      }
+      @media (max-width: 450px) 
+      {
+        body{
+          font: size 0.6em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <h1 id="welcome">Welcome!</h1>
+    </div>
+    <div id="navbar">
+     <a class="navitems" href="">Home</a>
+     <a class="navitems" href="">About</a>
+     <a class="navitems" href="">Services</a>
+     <a class="navitems" id="Contactus" href="">Contact us</a>
+    </div>
+    <div id="middle">
+      <div id="mid-left">
+        <h2 class="middle-head">Page Heading</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
+          praesentium quisquam atque enim aspernatur tenetur sequi illum magnam.
+          Cumque sed id autem rem quasi veniam, officiis dicta itaque
+          accusantium inventore. Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Ratione est id similique odio in libero reiciendis
+          temporibus, facilis incidunt ea voluptatum voluptates quidem illum.
+          Molestiae consequatur aperiam facilis enim non.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
+          praesentium quisquam atque enim aspernatur tenetur sequi illum magnam.
+          Cumque sed id autem rem quasi veniam, officiis dicta itaque
+          accusantium inventore. Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Ratione est id similique odio in libero reiciendis
+          temporibus, facilis incidunt ea voluptatum voluptates quidem illum.
+          Molestiae consequatur aperiam facilis enim non.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
+          praesentium quisquam atque enim aspernatur tenetur sequi illum magnam.
+          Cumque sed id autem rem quasi veniam, officiis dicta itaque
+          accusantium inventore. Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Ratione est id similique odio in libero reiciendis
+          temporibus, facilis incidunt ea voluptatum voluptates quidem illum.
+          Molestiae consequatur aperiam facilis enim non.
+        </p>
+      </div>
+      <div id="mid-right">
+        <h3 class="middle-head">Aside Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, labore
+          tenetur. A voluptate maiores necessitatibus laborum sequi veritatis ad
+          debitis! Sunt vitae eos nostrum molestias? Quis sit maxime cumque
+          quod.
+        </p>
+      </div>
+    </div>
+    <div id="footer">
+      <p id="footnote">Copyright © Site name, 20XX</p>
+    </div>
+  </body>
+</html>
