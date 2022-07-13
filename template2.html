@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Advance Template2</title>
+    <style>
+      body {
+        padding: 3%;
+        /* font-size: 0.73rem; */
+      }
+      #navbar {
+        display: flex;
+      }
+      #menu {
+        width: 86%;
+      }
+      #navbar img {
+        height: 100px;
+        width: 100px;
+      }
+      .nav-items {
+        padding: 1%;
+        vertical-align: top;
+        float: right;
+        /* font-size: 0.65rem; */
+      }
+      #detail {
+        background-color: #6c505024;
+        padding: 3%;
+      }
+      #headings {
+        display: flex;
+
+        padding: 1%;
+        height: 290px;
+      }
+      .cards {
+        padding: 2% 2% 0% 2%;
+        flex-wrap: wrap;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        align-content: center;
+      }
+      .cards a {
+        color: black;
+        align-items: center;
+        align-content: center;
+      }
+      .cards img {
+        height: 40%;
+        width: 100%;
+      }
+      .cards h4 {
+        text-align: center;
+        width: 100%;
+      }
+      .learn {
+        width: 100%;
+        text-align: center;
+      }
+      #subscribe {
+        background-color: #6c505024;
+        padding: 2%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      #subscribe strong {
+        padding: 1%;
+      }
+      #subscribe button {
+        background-color: #31b0ed;
+        padding: 1% 10% 1% 4%;
+        text-align: left;
+        margin-left: 1%;
+      }
+      #subscribe input {
+        padding: 0%;
+        margin: 0% 1% 0% 1%;
+      }
+      #footer {
+        display: flex;
+        padding-top: 2%;
+      }
+      #footer p {
+        margin: 0%;
+      }
+      #copyright {
+        padding-right: 57%;
+        padding-left: 3%;
+      }
+      @media (max-width: 255px) {
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <div class="logo"><h2>Site Logo</h2></div>
+      <div id="menu">
+        <a href="" class="nav-items">Company</a>
+        <a href="" class="nav-items">Solutions</a>
+        <a href="" class="nav-items">Products</a>
+      </div>
+    </div>
+    <div id="detail">
+      <h3>We Power eCommerce</h3>
+      <p>
+        Lorem ipsum dolor sit, amet kjcgs <br />
+        consectetur adipisicing elit. Impedit <br />
+        molestiae quas assumenda magni <br />
+        blanditiis! Ad odit, facencdsbg
+      </p>
+      <button id="LearnMore">Learn More</button>
+    </div>
+    <div id="headings">
+      <div class="cards">
+        <img src="gray.png" alt="" />
+        <h4>Heading 1</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ut illo
+        </p>
+        <div class="learn"><a href="">LEARN MORE</a></div>
+      </div>
+      <div class="cards">
+        <img src="gray.png" alt="" />
+        <h4>Heading 1</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ut illo
+        </p>
+        <div class="learn"><a href="">LEARN MORE</a></div>
+      </div>
+      <div class="cards">
+        <img src="gray.png" alt="" />
+        <h4>Heading 1</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ut illo
+        </p>
+        <div class="learn"><a href="">LEARN MORE</a></div>
+      </div>
+    </div>
+    <div id="subscribe">
+      <strong>Subscribe Us</strong>
+      <input type="text" placeholder="Text box" id="text-box" />
+      <button id="submit">Submit</button>
+    </div>
+    <div id="footer">
+      <p id="copyright">COPYRIGHT © 2020</p>
+      <p id="cedcoss">CEDCOSS Technologies</p>
+    </div>
+  </body>
+</html>
