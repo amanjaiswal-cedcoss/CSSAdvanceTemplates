@@ -151,6 +151,9 @@ table {
 table tr{
   width: 100%;
 }
+table tr:nth-child(even){
+  background-color: #dddddd;
+}
 #viewall {
   color: gray;
   text-align: center;
@@ -162,6 +165,7 @@ table tr{
   width: 75%;
   height: 100%;
   margin: 4% 12%;
+  padding: 1% 2%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -169,7 +173,7 @@ table tr{
 
 .search img{
   height: 100%;
-  width: 15%;
+  width: 8%;
 }
 .search input{
 width: 85%;
@@ -189,58 +193,58 @@ height: 23%;
   width: 8%;
 }
 
-.notification {
+/* .notification {
   width: 78%;
 }
 .actioncolumn{
   width: 14%;
-}
+} */
 }
 @media (max-width:600px){
   .bellicon {
   width: 10%;
 }
-
+/* 
 .notification {
   width: 76%;
 }
 .actioncolumn{
   width: 14%;
-}
+} */
 }
 @media (max-width:460px){
   .bellicon {
   width: 12%;
 }
 
-.notification {
+/* .notification {
   width: 74%;
 }
 .actioncolumn{
   width: 14%;
-}
+} */
 }
 @media (max-width:380px){
   .bellicon {
   width: 16%;
 }
 
-.notification {
+/* .notification {
   width: 70%;
 }
 .actioncolumn{
   width: 14%;
-}
+} */
 }
 @media (max-width:320px){
   .bellicon {
   width: 20
 }
 
-.notification {
+/* .notification {
   width: 70%;
 }
 .actioncolumn{
   width: 10%;
-}
+} */
 }
