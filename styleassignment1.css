@@ -51,6 +51,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0% 2%;
+  height: 265px;
 }
 #bottom-left {
   padding-top: 1%;
@@ -88,6 +89,7 @@ body {
   align-content: center;
   justify-content: space-between;
   background-color: #e1dbdb;
+  height: 100%;
 }
 .bottom-right-divs{
   height: 43%;
@@ -117,7 +119,7 @@ body {
     display: inline;
     margin-left: 2%;
   }
-img {
+.bellicon img {
   width: 100%;
   height: 100%;
 }
@@ -133,6 +135,10 @@ button {
   color: white;
   border: 0px;
   border-radius: 2px;
+  width: 100%;
+}
+.actioncolumn{
+  width: 14%;
 }
 #table {
   overflow: auto;
@@ -154,7 +160,7 @@ table tr{
   border: 1px solid #cdc2c2;
   border-radius: 2px;
   width: 75%;
-  height: 25%;
+  height: 100%;
   margin: 4% 12%;
   display: flex;
   justify-content: space-between;
@@ -163,12 +169,12 @@ table tr{
 
 .search img{
   height: 100%;
-  width: 6%;
+  width: 15%;
 }
 .search input{
 width: 85%;
 border: none;
-height: 30px;
+height: 92%;
 font-size: 100%;
 
 }
@@ -176,5 +182,65 @@ font-size: 100%;
   outline: none;
 }
 .search-cover {
+height: 23%;
+}
+@media (max-width:800px){
+  .bellicon {
+  width: 8%;
+}
 
+.notification {
+  width: 78%;
+}
+.actioncolumn{
+  width: 14%;
+}
+}
+@media (max-width:600px){
+  .bellicon {
+  width: 10%;
+}
+
+.notification {
+  width: 76%;
+}
+.actioncolumn{
+  width: 14%;
+}
+}
+@media (max-width:460px){
+  .bellicon {
+  width: 12%;
+}
+
+.notification {
+  width: 74%;
+}
+.actioncolumn{
+  width: 14%;
+}
+}
+@media (max-width:380px){
+  .bellicon {
+  width: 16%;
+}
+
+.notification {
+  width: 70%;
+}
+.actioncolumn{
+  width: 14%;
+}
+}
+@media (max-width:320px){
+  .bellicon {
+  width: 20
+}
+
+.notification {
+  width: 70%;
+}
+.actioncolumn{
+  width: 10%;
+}
 }
