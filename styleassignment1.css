@@ -1,0 +1,173 @@
+body {
+  background-color: #e1dbdb;
+  margin: 0%;
+  font-size:  0.9rem;
+}
+#navbar {
+  margin: 1% 0% 2% 0%;
+}
+#navbar p {
+  display: inline;
+}
+#path {
+  color: rgb(53, 53, 231);
+}
+#header {
+  background-image: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3803.jpg?w=360);
+
+  padding: 1%;
+  background-size: cover;
+
+  background-position: 100%;
+}
+#header h1 {
+  margin: 1% 0%;
+}
+#header p {
+  margin: 0%;
+}
+#stats {
+  display: flex;
+  width: 100%;
+  padding: 1% 0%;
+}
+.statbox {
+  width: 23%;
+  height: 95px;
+  margin: 0% 1%;
+  text-align: center;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+}
+.statbox h1 {
+  margin-bottom: -6%;
+}
+.statbox p {
+  color: gray;
+}
+#bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 2%;
+}
+#bottom-left {
+  padding-top: 1%;
+}
+#bottom h4 {
+  color: gray;
+}
+#bottom-left h4 {
+  display: inline;
+  margin-left: 2%;
+}
+#events select {
+  width: 90%;
+  border: 0px;
+  background-color: white;
+}
+.bottom-divs {
+  width: 49%;
+  background-color: white;
+  /* border-radius: 4px; */
+}
+#bottom-left select {
+  border: 0px;
+  background-color: white;
+  color: #131370;
+  width: 88%;
+}
+#bottom-right {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  background-color: #e1dbdb;
+}
+.bottom-right-divs{
+  height: 43%;
+  width: 102%;
+  padding-top: 2%;
+  background-color: white;
+}
+#bottom-right-up select {
+  
+  
+    border: 0px;
+    background-color: white;
+    width: 74%;
+  }
+  #bottom-right-down select {
+  
+    
+    border: 0px;
+    background-color: white;
+    width: 80%;
+  }
+  #bottom-right-up h4 {
+    display: inline;
+    margin-left: 2%;
+  }
+  #bottom-right-down h4 {
+    display: inline;
+    margin-left: 2%;
+  }
+img {
+  width: 100%;
+  height: 100%;
+}
+.bellicon {
+  width: 6%;
+}
+.notification {
+  width: 80%;
+}
+button {
+  padding: 14%;
+  background-color: #159f8c;
+  color: white;
+  border: 0px;
+  border-radius: 2px;
+}
+#table {
+  overflow: auto;
+  height: 200px;
+}
+table {
+  border-width: 2px;
+  border-color: solid #131370;
+}
+#viewall {
+  color: gray;
+  text-align: center;
+  padding: 2% 0%;
+}
+.search{
+  border: 1px solid #cdc2c2;
+  border-radius: 2px;
+  width: 75%;
+  height: 25%;
+  margin: 4% 12%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search img{
+  height: 100%;
+  width: 6%;
+}
+.search input{
+width: 85%;
+border: none;
+height: 30px;
+font-size: 100%;
+
+}
+.search input:focus {
+  outline: none;
+}
+.search-cover {
+
+}
